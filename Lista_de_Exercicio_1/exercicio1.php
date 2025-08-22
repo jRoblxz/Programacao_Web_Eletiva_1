@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Exemplo - Soma de Valores</title>
+  <title>Exercício 1</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body{
@@ -16,13 +16,12 @@
       padding: 5px;
       max-width: 700px;
     }
-    
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>Exemplo - Soma de Valores</h1>
+    <h1>Exercício 1</h1>
     <form method="post">
       <div class="row inline-row mb-3">
         <div class="col-md-6">
@@ -35,13 +34,14 @@
         </div>
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="button" class="btn btn-secondary" onclick="window.location.href='exercicio2.php'">Próximo</button>
     </form>
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $valor1 = $_POST["valor1"]; // leitura da variavel
         $valor2 = $_POST["valor2"];
         $soma = $valor1 + $valor2;
-        echo "<p> Soma: $soma </p>";
+        echo "<h4> Soma: $soma </h4>";
     }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
