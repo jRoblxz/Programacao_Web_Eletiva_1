@@ -78,22 +78,35 @@
         <h1>Exercício 5</h1>
         <form method="post">
             <div class="row inline-row mb-3">
-                <div class="col-md-12">
-                    <label for="valor1" class="form-label">Insira uma temperatura em Celsius:</label>
+                <div class="col-md-4">
+                    <label for="valor1" class="form-label">Insira o primeiro valor:</label>
                     <input type="number" id="valor1" name="valor1" class="form-control" required="">
+                </div>
+                <div class="col-md-4">
+                    <label for="valor2" class="form-label">Insira o segundo valor</label>
+                    <input type="number" id="valor2" name="valor2" class="form-control">
+                </div>
+                <div class="col-md-4">
+                    <label for="valor3" class="form-label">Insira o terceiro valor</label>
+                    <input type="number" id="valor3" name="valor3" class="form-control" required="">
                 </div>
             </div>
             <button type="submit" class="btn btn-success">Enviar</button>
-            <button type="button" class="btn btn-secondary"
-                onclick="window.location.href='exercicio5.php'">Voltar</button>
-            <button type="button" class="btn btn-secondary"
-                onclick="window.location.href='exercicio7.php'">Próximo</button>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary me-md-2" type="button"onclick="window.location.href='exercicio6.php'" >Voltar</button>
+                <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio8.php'">Próximo</button>
+            </div>
+
+
+
         </form>
         <?php
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $valor1 = $_POST["valor1"];
-            $convert = ($valor1 * 9 / 5) + 32;
-            echo "<div class='result_div'><p class='resultado'>A temperatura em Fahrenheit: $convert </p></div>";
+            $valor1 = $_POST["valor1"]; // leitura da variavel
+            $valor2 = $_POST["valor2"];
+            $valor3 = $_POST["valor3"];
+            $media = ($valor1 + $valor2 + $valor3) / 3;
+            echo "<div class='result_div'><p class='resultado'>Média: $media </p></div>";
         }
         ?>
     </main>
