@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exercício 7</title>
+    <title>Exercício 8</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         html,
@@ -75,20 +75,16 @@
 
 <body>
     <main class="container">
-        <h1>Exercício 7</h1>
+        <h1>Exercício 8</h1>
         <form method="post">
             <div class="row inline-row mb-3">
-                <div class="col-md-4">
-                    <label for="valor1" class="form-label">Insira o primeiro valor:</label>
+                <div class="col-md-6">
+                    <label for="valor1" class="form-label">Insira a altura:</label>
                     <input type="number" id="valor1" name="valor1" class="form-control" required="">
                 </div>
-                <div class="col-md-4">
-                    <label for="valor2" class="form-label">Insira o segundo valor</label>
+                <div class="col-md-6">
+                    <label for="valor2" class="form-label">Insira a largura:</label>
                     <input type="number" id="valor2" name="valor2" class="form-control">
-                </div>
-                <div class="col-md-4">
-                    <label for="valor3" class="form-label">Insira o terceiro valor</label>
-                    <input type="number" id="valor3" name="valor3" class="form-control" required="">
                 </div>
             </div> 
             <div class="d-flex justify-content-between mt-3">
@@ -97,8 +93,8 @@
 
                 <!-- Botões Voltar e Próximo à direita -->
                 <div class="d-flex gap-2">
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio6.php'">Voltar</button>
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio8.php'">Próximo</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio7.php'">Voltar</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio9.php'">Próximo</button>
                 </div>
             </div>
 
@@ -108,9 +104,8 @@
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $valor1 = $_POST["valor1"]; // leitura da variavel
             $valor2 = $_POST["valor2"];
-            $valor3 = $_POST["valor3"];
-            $media = ($valor1 + $valor2 + $valor3) / 3;
-            echo "<div class='result_div'><p class='resultado'>Média: $media </p></div>";
+            $area = $valor1 * $valor2;
+            echo "<div class='result_div'><p class='resultado'>Área do retangula é: $area m²</p></div>";
         }
         ?>
     </main>
