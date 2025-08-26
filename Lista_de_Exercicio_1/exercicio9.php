@@ -89,8 +89,8 @@
 
                 <!-- Botões Voltar e Próximo à direita -->
                 <div class="d-flex gap-2">
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio7.php'">Voltar</button>
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio9.php'">Próximo</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio8.php'">Voltar</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio10.php'">Próximo</button>
                 </div>
             </div>
 

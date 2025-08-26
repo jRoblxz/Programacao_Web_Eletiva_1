@@ -78,9 +78,13 @@
         <h1>Exercício 10</h1>
         <form method="post">
             <div class="row inline-row mb-3">
-                <div class="col-md-12">
-                    <label for="valor1" class="form-label">Insira o raio de um círculo:</label>
+                <div class="col-md-6">
+                    <label for="valor1" class="form-label">Insira a altura de um retângulo:</label>
                     <input type="number" id="valor1" name="valor1" class="form-control" required="">
+                </div>
+                <div class="col-md-6">
+                    <label for="valor2" class="form-label">Insira a largura de um retângulo:</label>
+                    <input type="number" id="valor2" name="valor2" class="form-control" required="">
                 </div>
             </div> 
             <div class="d-flex justify-content-between mt-3">
@@ -89,8 +93,8 @@
 
                 <!-- Botões Voltar e Próximo à direita -->
                 <div class="d-flex gap-2">
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio7.php'">Voltar</button>
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio9.php'">Próximo</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio9.php'">Voltar</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio11.php'">Próximo</button>
                 </div>
             </div>
 
@@ -99,8 +103,9 @@
         <?php
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $valor1 = $_POST["valor1"]; // leitura da variavel
-            $area = ($valor1 ** 2) * 3.14;
-            echo "<div class='result_div'><p class='resultado'>Área do círculo é: $area m²</p></div>";
+            $valor2 = $_POST["valor2"];
+            $perimetro = ($valor1 + $valor2) * 2;
+            echo "<div class='result_div'><p class='resultado'>O perímetro do retângulo é: $perimetro cm</p></div>";
         }
         ?>
     </main>
