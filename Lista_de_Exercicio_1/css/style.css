@@ -1,0 +1,63 @@
+html,
+body {
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    background-image: url('../images/DSC03870.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.row {
+    margin: auto;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #f0f8ff;
+}
+
+h1 {
+    font-weight: bold;
+    color: #f0f8ff;
+}
+
+.form-check-label {
+    color: #f0f8ff;
+}
+
+.resultado {
+    font-weight: bold;
+    color: rgb(2, 111, 25);
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.result_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

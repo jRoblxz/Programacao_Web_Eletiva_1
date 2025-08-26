@@ -99,7 +99,7 @@
         <?php
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $valor1 = $_POST["valor1"]; // leitura da variavel
-            $area = ($valor1 ** 2) * 3.14;
+            $area = ($valor1 ** 2) * pi();
             echo "<div class='result_div'><p class='resultado'>Área do círculo é: $area m²</p></div>";
         }
         ?>
