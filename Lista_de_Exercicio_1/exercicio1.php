@@ -7,11 +7,12 @@
   <title>Exercício 1</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body{
+    body {
       background-color: beige;
       margin-top: 50px;
     }
-    .container{
+
+    .container {
       margin: auto;
       padding: 5px;
       max-width: 700px;
@@ -38,10 +39,10 @@
     </form>
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-        $valor1 = $_POST["valor1"]; // leitura da variavel
-        $valor2 = $_POST["valor2"];
-        $soma = $valor1 + $valor2;
-        echo "<h4> Soma: $soma </h4>";
+      $valor1 = $_POST["valor1"]; // leitura da variavel
+      $valor2 = $_POST["valor2"];
+      $soma = $valor1 + $valor2;
+      echo "<h4> Soma: $soma </h4>";
     }
     ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
