@@ -6,22 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Exercício 2</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body{
-      background-color: beige;
-      margin-top: 50px;
-    }
-    .container{
-      margin: auto;
-      padding: 5px;
-      max-width: 700px;
-    }
-    
-  </style>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-
+<?php
+include 'base_cabecalho.php';
+?>
 <body>
-  <div class="container">
+  <div class="container_1">
     <h1>Exercício 2</h1>
     <form method="post">
       <div class="row inline-row mb-3">
@@ -34,9 +25,13 @@
           <input type="number" id="valor2" name="valor2" class="form-control" required="">
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
-      <button type="button" class="btn btn-secondary" onclick="window.location.href='exercicio1.php'">Voltar</button>
-      <button type="button" class="btn btn-secondary" onclick="window.location.href='exercicio3.php'">Próximo</button>
+      <div class="d-flex justify-content-between mt-3">
+                <button type="submit" class="btn btn-success">Enviar</button>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio1.php'">Voltar</button>
+                    <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio3.php'">Próximo</button>
+                </div>
+            </div>
     </form>
     <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -45,11 +40,5 @@
         $subtracao = $valor1 - $valor2;
         echo "<p> Subtracao: $subtracao </p>";
     }
+    include 'rodape.php';
     ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-      crossorigin="anonymous"></script>
-  </div>
-</body>
-
-</html>

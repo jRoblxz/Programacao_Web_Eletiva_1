@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -6,75 +7,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Exercício 10</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        html,
-        body {
-            height: 100%;
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: #f8f9fa;
-            background-image: url('../images/DSC03870.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 100vh;
-        }
-
-        main {
-            margin-top: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: center;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.35);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            backdrop-filter: blur(13.5px);
-            -webkit-backdrop-filter: blur(13.5px);
-            border-radius: 10px;
-            border: 1px solid rgba(255, 255, 255, 0.18);
-        }
-
-        .row {
-            margin: auto;
-        }
-
-        .form-label {
-            font-weight: bold;
-            color: #f0f8ff;
-        }
-
-        h1 {
-            font-weight: bold;
-            color: #f0f8ff;
-        }
-
-        .form-check-label {
-            color: #f0f8ff;
-        }
-
-        .resultado {
-            font-weight: bold;
-            color: rgb(2, 111, 25);
-            margin-top: 15px;
-            font-size: 1.2em;
-        }
-
-        .result_div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
-    <main class="container">
+    <!-- Cabeçalho principal início -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Tarefas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Exemplos Bootstrap
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown1">
+                            <li><a class="dropdown-item" href="#">Exemplo 1</a></li>
+                            <li><a class="dropdown-item" href="#">Exemplo 2</a></li>
+                            <li><a class="dropdown-item" href="#">Exemplo 3</a></li>
+                            <li><a class="dropdown-item" href="#">Exemplo 4</a></li>
+                            <li><a class="dropdown-item" href="#">Exemplo 5</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista 1
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown2">
+                            <li><a class="dropdown-item" href="./exercicio1.php">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="./exercicio2.php">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="./exercicio3.php">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="./exercicio4.php">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="./exercicio5.php">Exercício 5</a></li>
+                            <li><a class="dropdown-item" href="./exercicio6.php">Exercício 6</a></li>
+                            <li><a class="dropdown-item" href="./exercicio7.php">Exercício 7</a></li>
+                            <li><a class="dropdown-item" href="./exercicio8.php">Exercício 8</a></li>
+                            <li><a class="dropdown-item" href="./exercicio9.php">Exercício 9</a></li>
+                            <li><a class="dropdown-item" href="./exercicio10.php">Exercício 10</a></li>
+                            <li><a class="dropdown-item" href="./exercicio11.php">Exercício 11</a></li>
+                            <li><a class="dropdown-item" href="./exercicio12.php">Exercício 12</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 13</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 14</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 15</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 16</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 17</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 18</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 19</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 20</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista 2
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown3">
+                            <li><a class="dropdown-item" href="#">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 5</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 6</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 7</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 8</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 9</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 10</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 11</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 12</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 13</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 14</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 15</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 16</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 17</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 18</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 19</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 20</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista 3
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown4">
+                            <li><a class="dropdown-item" href="#">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 5</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 6</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 7</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 8</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 9</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 10</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista 4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown5">
+                            <li><a class="dropdown-item" href="#">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 5</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 6</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 7</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lista 4
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown6">
+                            <li><a class="dropdown-item" href="#">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="#">Exercício 5</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Cabeçalho principal fim -->
+
+    <main class="container_1">
         <h1>Exercício 10</h1>
         <form method="post">
             <div class="row inline-row mb-3">
@@ -97,8 +164,6 @@
                     <button class="btn btn-primary" type="button" onclick="window.location.href='exercicio11.php'">Próximo</button>
                 </div>
             </div>
-
-
         </form>
         <?php
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {

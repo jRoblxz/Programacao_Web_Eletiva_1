@@ -140,7 +140,7 @@
     </nav>
     <!-- Cabeçalho principal fim -->
 
-    <main class="container">
+    <main class="container_1">
         <h1>Exercício 12</h1>
         <form method="post">
             <div class="row inline-row mb-3">

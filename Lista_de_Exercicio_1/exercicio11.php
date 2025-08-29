@@ -48,7 +48,7 @@
                             <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio9.php">Exercício 9</a></li>
                             <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio10.php">Exercício 10</a></li>
                             <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio11.php">Exercício 11</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio12.php">Exercício 12</a></li>
+                            <li><a class="dropdown-item" href="exercicio12.php">Exercício 12</a></li>
                             <li><a class="dropdown-item" href="#">Exercício 13</a></li>
                             <li><a class="dropdown-item" href="#">Exercício 14</a></li>
                             <li><a class="dropdown-item" href="#">Exercício 15</a></li>

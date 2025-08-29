@@ -1,13 +1,3 @@
-<!doctype html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tarefas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./Lista_de_Exercicio_1/css/style.css">
-</head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -24,11 +14,11 @@
                             Exemplos Bootstrap
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                            <li><a class="dropdown-item" href="#">Exemplo 1</a></li>
-                            <li><a class="dropdown-item" href="#">Exemplo 2</a></li>
-                            <li><a class="dropdown-item" href="#">Exemplo 3</a></li>
-                            <li><a class="dropdown-item" href="#">Exemplo 4</a></li>
-                            <li><a class="dropdown-item" href="#">Exemplo 5</a></li>
+                            <li><a class="dropdown-item" href="./../Exemplos Bootstrap/Form1.html">Exemplo 1</a></li>
+                            <li><a class="dropdown-item" href="./../Exemplos Bootstrap/Form2.html">Exemplo 2</a></li>
+                            <li><a class="dropdown-item" href="./../Exemplos Bootstrap/Form3.html">Exemplo 3</a></li>
+                            <li><a class="dropdown-item" href="./../Exemplos Bootstrap/Form4.html">Exemplo 4</a></li>
+                            <li><a class="dropdown-item" href="./../Exemplos Bootstrap/Form5.html">Exemplo 5</a></li>
                         </ul>
                     </li>
 
@@ -37,26 +27,26 @@
                             Lista 1
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown2">
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio1.php">Exercício 1</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio2.php">Exercício 2</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio3.php">Exercício 3</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio4.php">Exercício 4</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio5.php">Exercício 5</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio6.php">Exercício 6</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio7.php">Exercício 7</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio8.php">Exercício 8</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio9.php">Exercício 9</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio10.php">Exercício 10</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio11.php">Exercício 11</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio12.php">Exercício 12</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 13</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 14</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 15</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 16</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 17</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 18</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 19</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 20</a></li>
+                            <li><a class="dropdown-item" href="exercicio1.php">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="exercicio2.php">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="exercicio3.php">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="exercicio4.php">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="exercicio5.php">Exercício 5</a></li>
+                            <li><a class="dropdown-item" href="exercicio6.php">Exercício 6</a></li>
+                            <li><a class="dropdown-item" href="exercicio7.php">Exercício 7</a></li>
+                            <li><a class="dropdown-item" href="exercicio8.php">Exercício 8</a></li>
+                            <li><a class="dropdown-item" href="exercicio9.php">Exercício 9</a></li>
+                            <li><a class="dropdown-item" href="exercicio10.php">Exercício 10</a></li>
+                            <li><a class="dropdown-item" href="exercicio11.php">Exercício 11</a></li>
+                            <li><a class="dropdown-item" href="exercicio12.php">Exercício 12</a></li>
+                            <li><a class="dropdown-item" href="exercicio13.php">Exercício 13</a></li>
+                            <li><a class="dropdown-item" href="exercicio14.php">Exercício 14</a></li>
+                            <li><a class="dropdown-item" href="exercicio15.php">Exercício 15</a></li>
+                            <li><a class="dropdown-item" href="exercicio16.php">Exercício 16</a></li>
+                            <li><a class="dropdown-item" href="exercicio17.php">Exercício 17</a></li>
+                            <li><a class="dropdown-item" href="exercicio18.php">Exercício 18</a></li>
+                            <li><a class="dropdown-item" href="exercicio19.php">Exercício 19</a></li>
+                            <li><a class="dropdown-item" href="exercicio20.php">Exercício 20</a></li>
                         </ul>
                     </li>
 
@@ -137,8 +127,3 @@
             </div>
         </div>
     </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</body>
-
-</html>
-    
