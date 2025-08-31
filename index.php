@@ -123,7 +123,7 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Lista 4
+                            Lista 5
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown6">
                             <li><a class="dropdown-item" href="#">Exercício 1</a></li>
