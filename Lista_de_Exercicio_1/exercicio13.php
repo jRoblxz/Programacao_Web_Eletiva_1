@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exercício 8</title>
+    <title>Exercício 13</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
@@ -38,7 +38,7 @@ include 'base_cabecalho.php';
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $valor1 = $_POST["valor1"];
             $centimetros = $valor1 * 100;
-            echo "<div class='result_div'><p class='resultado'>$valor1 em centimeros é: $centimetros cm</p></div>";
+            echo "<div class='result_div'><p class='resultado'>$valor1 metros em centimeros é: $centimetros cm</p></div>";
         }
         include 'rodape.php';
         ?>
