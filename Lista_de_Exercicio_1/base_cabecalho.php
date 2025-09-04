@@ -55,7 +55,7 @@
                             Lista 2
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown3">
-                            <li><a class="dropdown-item" href="#">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_2/exer1.php">Exercício 1</a></li>
                             <li><a class="dropdown-item" href="#">Exercício 2</a></li>
                             <li><a class="dropdown-item" href="#">Exercício 3</a></li>
                             <li><a class="dropdown-item" href="#">Exercício 4</a></li>
