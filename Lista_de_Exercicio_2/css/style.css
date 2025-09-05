@@ -60,6 +60,12 @@ h1 {
     margin-top: 15px;
     font-size: 1.2em;
 }
+.resultado_erro {
+    font-weight: bold;
+    color: rgb(228, 0, 0);
+    margin-top: 15px;
+    font-size: 1.2em;
+}
 
 .result_div {
     display: flex;

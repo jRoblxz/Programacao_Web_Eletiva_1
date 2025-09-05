@@ -47,16 +47,6 @@
                             <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio8.php">Exercício 8</a></li>
                             <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio9.php">Exercício 9</a></li>
                             <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio10.php">Exercício 10</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio11.php">Exercício 11</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio12.php">Exercício 12</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio13.php">Exercício 13</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio14.php">Exercício 14</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio15.php">Exercício 15</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio16.php">Exercício 16</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio17.php">Exercício 17</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio18.php">Exercício 18</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio19.php">Exercício 19</a></li>
-                            <li><a class="dropdown-item" href="./Lista_de_Exercicio_1/exercicio20.php">Exercício 20</a></li>
                         </ul>
                     </li>
 

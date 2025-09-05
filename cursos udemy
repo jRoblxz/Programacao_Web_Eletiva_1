@@ -3,3 +3,20 @@ https://www.udemy.com/course/laravel-essencial-estrutura-api-e-projeto-na-pratic
 https://www.udemy.com/course/arte-codigo-e-diversao-aprenda-a-criar-jogos-3d-com-unity/?couponCode=KEEPLEARNINGBR
 
 https://www.udemy.com/course/gustavo-rosa-introducao-ao-blender-/?couponCode=KEEPLEARNINGBR
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Lista 2
+</a>
+<ul class="dropdown-menu" aria-labelledby="dropdown3">
+    <li><a class="dropdown-item" href="exer1.php">Exercício 1</a></li>
+    <li><a class="dropdown-item" href="exer2.php">Exercício 2</a></li>
+    <li><a class="dropdown-item" href="exer3.php">Exercício 3</a></li>
+    <li><a class="dropdown-item" href="exer4.php">Exercício 4</a></li>
+    <li><a class="dropdown-item" href="exer5.php">Exercício 5</a></li>
+    <li><a class="dropdown-item" href="exer6.php">Exercício 6</a></li>
+    <li><a class="dropdown-item" href="exer7.php">Exercício 7</a></li>
+    <li><a class="dropdown-item" href="exer8.php">Exercício 8</a></li>
+    <li><a class="dropdown-item" href="exer9.php">Exercício 9</a></li>
+    <li><a class="dropdown-item" href="exer10.php">Exercício 10</a></li>
+</li>
