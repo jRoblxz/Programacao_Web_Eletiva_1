@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exercício 1</title>
+    <title>Exercício 5</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
@@ -13,7 +13,7 @@
 include 'base_cabecalho.php';
 ?>
 <main class="container_1">
-    <h1>Exercício 1</h1>
+    <h1>Exercício 5</h1>
     <form method="post">
         <div class="row inline-row mb-3">
             <div class="col-md-12">
@@ -28,7 +28,7 @@ include 'base_cabecalho.php';
             <!-- Botões Voltar e Próximo à direita -->
             <div class="d-flex gap-2">
                 <button class="btn btn-primary" type="button" onclick="window.location.href='exer4.php'">Voltar</button>
-                <button class="btn btn-primary" type="button" onclick="window.location.href='exer6.php'">Finalizar</button>
+                <button class="btn btn-primary" type="button" onclick="window.location.href='exer6.php'">Próximo</button>
             </div>
         </div>
     </form>

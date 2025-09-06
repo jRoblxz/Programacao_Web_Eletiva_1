@@ -54,7 +54,7 @@ include 'base_cabecalho.php';
             <!-- Botões Voltar e Próximo à direita -->
             <div class="d-flex gap-2">
                 <button class="btn btn-primary" type="button" onclick="window.location.href='/index.php'">Voltar</button>
-                <button class="btn btn-primary" type="button" onclick="window.location.href='exer2.php'">Finalizar</button>
+                <button class="btn btn-primary" type="button" onclick="window.location.href='exer2.php'">Próximo</button>
             </div>
         </div>
     </form>

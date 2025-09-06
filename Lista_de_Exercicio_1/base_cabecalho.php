@@ -83,16 +83,12 @@
                             Lista 3
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown4">
-                            <li><a class="dropdown-item" href="#">Exercício 1</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 2</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 3</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 4</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 5</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 6</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 7</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 8</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 9</a></li>
-                            <li><a class="dropdown-item" href="#">Exercício 10</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_3/exer1.php">Exercício 1</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_3/exer2.php">Exercício 2</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_3/exer3.php">Exercício 3</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_3/exer4.php">Exercício 4</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_3/exer5.php">Exercício 5</a></li>
+                            <li><a class="dropdown-item" href="../Lista_de_Exercicio_3/exer6.php">Exercício 6</a></li>
                         </ul>
                     </li>
 

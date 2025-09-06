@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exercício 9</title>
+    <title>Exercício 10</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
@@ -13,11 +13,11 @@
 include 'base_cabecalho.php';
 ?>
 <main class="container_1">
-    <h1>Exercício 9</h1>
+    <h1>Exercício 10</h1>
     <form method="post">
         <div class="row inline-row mb-3">
             <div class="col-md-12">
-                <label for="numero" class="form-label">Insira o numero para calcular o fatorial:</label>
+                <label for="numero" class="form-label">Insira o numero para vizualizar a tabuada:</label>
                 <input type="number" id="numero" name="numero" class="form-control" step="any" required="">
             </div>
         </div>
@@ -27,20 +27,22 @@ include 'base_cabecalho.php';
 
             <!-- Botões Voltar e Próximo à direita -->
             <div class="d-flex gap-2">
-                <button class="btn btn-primary" type="button" onclick="window.location.href='exer8.php'">Voltar</button>
-                <button class="btn btn-primary" type="button" onclick="window.location.href='exer10.php'">Próximo</button>
+                <button class="btn btn-primary" type="button" onclick="window.location.href='exer9.php'">Voltar</button>
+                <button class="btn btn-primary" type="button" onclick="window.location.href='/index.php'">Finalizar</button>
             </div>
         </div>
     </form>
     <?php
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         $numero = $_POST['numero'];
-        $fatorial = $numero;
-                for($i=$numero-1;$i>1;$i--){
-                    $fatorial = $fatorial * $i;
-                    //$fatorial *= $i;
-                }
-                echo "<div class='result_div'><p class='resultado'>O fatorial de $numero é: $fatorial</p></div>";
+
+        echo "<div class='result_div'><p class='resultado'>Tabuada de $numero é:</p></div>";
+
+        for ($i = 1; $i <= 10; $i++) {
+            $resultado = $numero * $i;
+            echo "<div class='result_div'><li>$numero x $i = $resultado</li></div>";
+          }
+      
     }
     
     include 'rodape.php';
