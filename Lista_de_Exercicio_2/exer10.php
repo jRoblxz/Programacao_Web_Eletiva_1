@@ -38,10 +38,13 @@ include 'base_cabecalho.php';
 
         echo "<div class='result_div'><p class='resultado'>Tabuada de $numero é:</p></div>";
 
+        echo "<div class='result_div'>";
+        echo "<ul style='list-style:none; padding-left:0;'>";
         for ($i = 1; $i <= 10; $i++) {
             $resultado = $numero * $i;
-            echo "<div class='result_div'><li>$numero x $i = $resultado</li></div>";
-          }
+            echo "<li class='resultado'>$numero x $i = $resultado</li>";
+        }
+        echo "</ul></div>";
       
     }
     

@@ -30,7 +30,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
 
     /* Centraliza verticalmente */
-    margin-top: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .row {
